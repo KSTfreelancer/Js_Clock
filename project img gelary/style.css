@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.menu{
+  margin-bottom: 50px;
+}
+.menu ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.menu ul li{
+ height: 40px;
+ width: 100px;
+ line-height: 40px;
+ text-align: center;
+ border: 1px solid red;
+
+}
+.menu ul li:hover a{
+  box-shadow: 5px 0px 20px rgba(0,0,0,.5);
+  color: red;
+}
+.menu ul li a{
+  text-decoration: none;
+  display: block;
+
+
+}
+.photos{
+  width: 80%;
+  margin: auto;
+}
+.photos .pic{
+width: 32%;
+display: inline-block;
+
+}
+.photos .pic img{
+  width: 100%;
+}
